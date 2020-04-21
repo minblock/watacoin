@@ -224,10 +224,10 @@ with `-txconfirmtarget=<m>` (default: `2`).
 
 Sometimes, it is not possible to give good estimates, or an estimate
 at all. Therefore, a fallback value can be set with `-fallbackfee=<f>`
-(default: `0.0002` H20/kB).
+(default: `0.0002` WTC/kB).
 
 At all times, Watacoin Core will cap fees at `-maxtxfee=<x>` (default:
-0.10) H20.
+0.10) WTC.
 Furthermore, Watacoin Core will never create transactions paying less than
 the current minimum relay fee.
 Finally, a user can set the minimum fee rate for all transactions with

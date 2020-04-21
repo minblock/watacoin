@@ -42,7 +42,7 @@ QString BitcoinUnits::longName(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("H20");
+    case BTC: return QString("WTC");
     case mBTC: return QString("lites");
     case uBTC: return QString("photons");
     case SAT: return QString("liteoshi");
